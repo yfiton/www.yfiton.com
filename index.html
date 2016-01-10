@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Yfiton</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="Laurent Pellegrino">
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="content">
+					<h1><a href="#">Yfiton</a></h1>
+					<p>Send notifications from the command-line <br/>using well-known or modern communication services</p>
+					<ul class="actions">
+						<li><a href="#" id="yfiton-download" class="button special icon fa-download">Download</a> </li>
+						<li><a href="#one" class="button icon fa-chevron-down scrolly">Learn More</a></li>
+					</ul>
+					<p style="opacity: 0.4; font-size: 1em">Currently <span id="version"></span></p>
+				</div>
+			</header>
+
+		<!-- One -->
+			<section id="one" class="wrapper style2 special">
+				<header>
+					<h2>Simple one-liner for notifications</h2>
+					<div id="window" style="margin: auto; max-width: 736px">
+ 	<div id="toolbar">
+		<div class="top">
+			<div id="lights">
+				<div class="light red">
+					<div class="glyph"></div>
+					<div class="shine"></div>
+					<div class="glow"></div>
+				</div>
+				<div class="light yellow">
+					<div class="glyph"></div>
+					<div class="shine"></div>
+					<div class="glow"></div>
+				</div>
+				<div class="light green">
+					<div class="glyph"></div>
+					<div class="shine"></div>
+					<div class="glow"></div>
+				</div>
+			</div>
+			<div id="bubble">
+				<div class="shine"></div>
+				<div class="glow"></div>
+			</div>
+		</div>
+	</div>
+	<div id="body">
+		<p style="font-weight: 700;">$> yfiton --notify-with pushbullet -Pbody="Hello!"</p>
+		<p>[INFO ] Notification sent in 951 ms by using pushbullet</p>
+		<p style="font-weight: 700; padding-top: 16px;">$> yfiton --notify-with twitter -Pstatus="So simple!"</p>
+		<p>[INFO ] https://twitter.com/yfiton_app/status/680478807715872768</p>
+    <p>[INFO ] Notification sent in 668 ms by using twitter</p>
+		<p style="font-weight: 700; padding-top: 16px">$> yfiton --help<span class="blink">_</span></p>
+	</div>
+</div>
+				</header>
+			</section>
+
+			<section id="two" class="wrapper special">
+				<header>
+					<h2>Integrates with well-known and famous services</h2>
+					<p></p>
+					<ul class="icons labeled" style="margin: auto; max-width: 650px">
+						<li><span class="icon fa-music"><span class="label">Beep</span></span></li>
+						<li><span class="icon fa-desktop"><span class="label">Desktop</span></span></li>
+						<li><span class="icon fa-envelope"><span class="label">Email</span></span></li>
+						<li><span class="icon fa-facebook"><span class="label">Facebook</span></span></li>
+						<!-- <li><span class="icon fa-google-plus"><span class="label">Google+</span></span></li>
+						<li><span class="icon fa-reddit"><span class="label">Reddit</span></span></li> -->
+						<li><span class="icon fa-twitter"><span class="label">Twitter</span></span></li>
+						<li><span class="icon fa-slack"><span class="label">Slack</span></span></li>
+					</ul>
+				</header>
+			</section>
+
+			<section id="three" class="wrapper">
+				<div class="inner alt">
+					<section class="spotlight">
+						<div class="image" style="width: 20%"><img src="images/cross-platform.png" alt="Yfiton is cross-platform" /></div>
+						<div class="content">
+							<h3>Cross-platform</h3>
+							<p>Yfiton is a true multi-platform solution, supporting Windows, Mac OSX, Linux and Unix. No complex configuration neither system specific packages are required.</p>
+						</div>
+					</section>
+					<!--<section class="spotlight">
+						<div class="image"  style="width: 20%"><img src="images/extensible.jpg" alt="Yfiton is extensible" /></div>
+						<div class="content">
+							<h3>Extensible</h3>
+							<p>Yfiton takes future growth into consideration by offering the possibility to easily add new notifier implementations.</p>
+						</div>
+					</section>-->
+				</div>
+			</section>
+
+			<section id="four" class="wrapper style2 special">
+				<header>
+					<h2>Yfiton is open source.</h2>
+					<p>It's hosted, developed, and maintained on GitHub.</p>
+					<ul class="actions">
+						<li><a href="https://github.com/yfiton/yfiton" alt="Yfiton on Github" class="button special icon fa-github">View the Github project</a></li>
+					</ul>
+				</header>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://github.com/yfiton/yfiton" class="icon fa-github"><span class="label">Github</span></a></li>
+					<li><a href="mailto:contact@yfiton.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					<li><a href="https://twitter.com/yfiton_app" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				</ul>
+				<p class="copyright">&copy; Yfiton. Credits: <a href="http://html5up.net">HTML5 UP</a>.</p>
+			</footer>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+			<script>
+			            $(document).ready (function () {
+			                jQuery.getJSON("https://api.github.com/repos/yfiton/yfiton/releases/latest").done(function (data) {
+			                    $('#yfiton-download').attr('href', data.assets[0].browser_download_url);
+													$('#version').text(data.tag_name)
+			                })
+			            });
+			</script>
+
+			<script type="text/javascript">
+			$('.blink').each(function() {
+			    var elem = $(this);
+			    setInterval(function() {
+			        if (elem.css('visibility') == 'hidden') {
+			            elem.css('visibility', 'visible');
+			        } else {
+			            elem.css('visibility', 'hidden');
+			        }
+			    }, 500);
+			});
+
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-71563795-1', 'auto');
+			ga('send', 'pageview');
+			</script>
+	</body>
+</html>
